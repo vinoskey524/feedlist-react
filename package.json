@@ -1,0 +1,56 @@
+{
+  "name": "@vinoskey524/feedlist-react",
+  "version": "1.0.0",
+  "module": "main.ts",
+  "type": "module",
+  "description": "A highly efficient and high-performance feeds renderer, designed for React and React Native (Bare and Expo).",
+  "exports": {
+    "import": {
+      "types": "./dist/main.d.ts",
+      "default": "./dist/main.js"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinoskey524/feedlist-react.git"
+  },
+  "author": "Hamet Kévin E. ODOUTAN - @vinoskey524",
+  "bugs": {
+    "url": "https://github.com/vinoskey524/feedlist-react/issues"
+  },
+  "homepage": "https://package524.vercel.app",
+  "keywords": [
+    "feedlist",
+    "feed",
+    "list",
+    "render",
+    "react",
+    "react-native",
+    "native",
+    "preact",
+    "javascript",
+    "typescript",
+    "library",
+    "software",
+    "latest",
+    "new"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "b": "clear && tsup src/main.tsx --format esm --dts && tsx esbuild.config.js",
+    "p": "clear && npm publish --access public",
+    "f": "clear && npm info @vinoskey524/feedlist-react"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "esbuild": "0.25.9",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}
