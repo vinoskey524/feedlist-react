@@ -1,16 +1,16 @@
 {
   "name": "@vinoskey524/feedlist-react",
-  "version": "1.0.0",
-  "module": "main.ts",
+  "version": "1.0.1",
   "type": "module",
   "description": "A highly efficient and high-performance feeds renderer, designed for React.",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "exports": {
     "import": {
       "types": "./dist/main.d.ts",
       "default": "./dist/main.js"
     }
   },
-  "types": "./dist/main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinoskey524/feedlist-react.git"
