@@ -1,6 +1,6 @@
 {
   "name": "@vinoskey524/feedlist-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A highly efficient and high-performance feeds renderer, designed for React.",
   "main": "./dist/main.js",
